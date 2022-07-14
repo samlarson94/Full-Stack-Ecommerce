@@ -14,7 +14,9 @@ const Products = () => {
     {/* ITEMS GRID */}
     <Grid container justify="center" spacing={4}>
     {/* MOCK PRODUCTS */}
-    
+    <Grid item key={product.id} xs={12} sm={6} lg={3}>
+        <Product />
+    </Grid>
     {/* FETCH PRODUCTS FROM API */}
     </Grid>
 </main>
